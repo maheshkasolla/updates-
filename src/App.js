@@ -1,5 +1,5 @@
-import './App.css'
 import BannerCardItem from './components/BannerCardItem'
+import './App.css'
 const bannerCardsList = [
   {
     id: 1,
@@ -21,7 +21,6 @@ const bannerCardsList = [
     className: 'card-3',
   },
 ]
-
 const App = () => (
   <div className="bg-container">
     <ul className="banner-card-list">
@@ -31,7 +30,4 @@ const App = () => (
     </ul>
   </div>
 )
-
-export default App
-
 export default App
